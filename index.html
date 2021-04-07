@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>googlemap-line</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <input type="text" value="東京" size="20" id="place">
+  <button type="button" onclick="view()">検索</button>
+  <button id="view" type="button" onclick="initMap()">再表示</button><br />
+  <!-- 緯度：<span id="ido"></span><br /> -->
+  <!-- 経度：<span id="keido"></span> -->
+
+  <div id="map"></div>
+
+  <script src="main.js"></script>
+  <script
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0eshwY60BNRvQOkosyqCi0GLisEJ31mY&callback=initMap&libraries=drawing&v=weekly"
+  async
+  ></script>
+
+</body>
+
+</html>
