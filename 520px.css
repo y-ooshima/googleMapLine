@@ -1,0 +1,12 @@
+header .headline{
+    line-height: 100px;
+    float: left;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.nav-list {
+    line-height: 100px;
+    float:right;
+    margin-right: 5px;
+}

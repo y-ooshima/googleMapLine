@@ -5,19 +5,40 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>googlemap-line</title>
+  <link rel="icon" type="image/png" href="img/地球アイコン.png">
 
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="(max-width: 520px)" href="520px.css">
 
 </head>
 <body>
+  <header>
+  	<h1 class="headline">
+      <a>Route Creation</a>
+    </h1>
+    <ul class="nav-list">
+      <li class="nav-list-item"><a href="https://y-ooshima.github.io/profile/">portfolioに戻る</a></li>
+    </ul>
+  </header>
 
+  <div class="center">
+  <p class="text-item1">おすすめルートを描いてみよう！</p>
   <input type="text" value="東京" size="20" id="place">
   <button type="button" onclick="view()">検索</button>
   <button id="view" type="button" onclick="initMap()">再表示</button><br />
+  <p class="text-item2">描き直す場合は"再表示"です</p>
   <!-- 緯度：<span id="ido"></span><br /> -->
   <!-- 経度：<span id="keido"></span> -->
+  </div>
 
   <div id="map"></div>
+
+  <footer>
+    　　<ul class="footer-menu">
+         <li>e-mail : <a href="mailto:gozira.1kawa@gmail.com">gozira.1kawa@gmail.com</a></li>
+         <li><a href="https://twitter.com/WUsoh78YP4jevf1">Twitter</a></li>
+        </ul>
+  </footer>
 
   <script src="main.js"></script>
   <script
